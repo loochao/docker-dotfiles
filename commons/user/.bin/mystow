@@ -5,7 +5,7 @@ PWD=$(pwd)
 # Check if in the dotfiles folder
 if [ ! -f "$PWD/commons/.stow" ]; then
 	echo "It seem not a dotfiles folder, please go to your root dotfiles folder"
-	exit 1
+	#exit 1
 fi
 
 # Execute stow
