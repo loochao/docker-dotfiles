@@ -7,8 +7,8 @@
 
 # Configure keyboard
 xbindkeys &
-setxkbmap fr
-numlockx on
+# setxkbmap fr
+# numlockx on
 
 # Sound
 pulseaudio --start &
@@ -42,7 +42,7 @@ xset s noblank &
 xset s noexpose &
 xset c on &
 xset -dpms &
-xbacklight -set 15 &
+# xbacklight -set 15 &
 
 #sleep 2s && bspc config top_padding 10 &
 #mylime &
@@ -62,7 +62,7 @@ termite &
 #termite -e "sh -c 'less ~/docker-dotfiles/README.md'" &
 
 # init screen
-computer_init_screens
+# computer_init_screens
 init_workspaces
 
 # Background
